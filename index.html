@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenida | Liga BetPlay</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0033A0, #FFD700);
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .logo {
+      width: 180px;
+      height: auto;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+      animation: pulse 3s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 400px;
+      margin-bottom: 30px;
+    }
+
+    #widget {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      margin-bottom: 25px;
+    }
+
+    iframe {
+      border-radius: 10px;
+      border: none;
+    }
+
+    .btn {
+      background: #FFD700;
+      color: #0033A0;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #0033A0;
+      color: #FFD700;
+      box-shadow: 0 0 10px #FFD700;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/BetPlay-Dimayor_logo.svg/1495px-BetPlay-Dimayor_logo.svg.png" class="logo">
+
+  <h1>Bienvenido a la Liga BetPlay</h1>
+  <p>La emoción del fútbol colombiano te espera. Conéctate, infórmate y forma parte de la comunidad oficial.</p>
+
+  <section id="widget">
+    <iframe src="https://discord.com/widget?id=1420957847214358530&theme=dark" width="350" height="500" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  </section>
+
+  <a href="https://tuwebreal.com" class="btn">Entrar a la Web Oficial</a>
+
+  <footer>© 2025 Liga BetPlay | Todos los derechos reservados</footer>
+</body>
+</html>
